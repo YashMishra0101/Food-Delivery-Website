@@ -1,6 +1,6 @@
 # Tarun Food Delivery Website
 
-[Live site URL](https://gomealres.netlify.app/)
+<!-- [Live site URL](https://gomealres.netlify.app/) -->
 
 Hi, I’m Tarun Singh, a student from Pune, India, and this is my **Fast Food Delivery App**. The goal of this project is to offer a smooth and convenient food ordering experience. I built this app using **React**, **Redux**, **Tailwind CSS**, and **Firebase**, and I'm constantly learning new things to make it better.  
 
