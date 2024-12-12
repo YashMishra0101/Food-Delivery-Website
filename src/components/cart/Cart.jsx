@@ -1,5 +1,5 @@
 import { MdClose } from "react-icons/md";
-import { formatCurrency } from "../../utils/helpers";
+// import { formatCurrency } from "../../utils/helpers";
 import { useDispatch, useSelector } from "react-redux";
 import {
   clearCart,
@@ -49,7 +49,7 @@ function Cart({ showCart, setShowCart }) {
           <div className="text-center">
             <div className="mb-[10px] flex items-center justify-between bg-gray p-[10px]">
               <h5 className="font-bold">Total:</h5>
-              <p>{formatCurrency(totalPrice || 0)} </p>
+              <p>{`₹${(totalPrice || 0)}`} </p> 
             </div>
 
             {cartItems?.length > 0 && (

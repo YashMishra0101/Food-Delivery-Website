@@ -49,14 +49,13 @@
 
 import { useState } from "react";
 import { SectionHead, MenuItem, GridContainer, MenuFilter, Loader } from "../../components";
-import { dummyMenuData } from "../../components/dummyData"; // Import your dummy data
+import { dummyMenuData } from "../../components/dummyData"; 
 import Empty from "../Empty";
 
 function MenuList() {
   const [category, setCategory] = useState("all");
 
-  const data = dummyMenuData; // Use the static dummy data here
-
+  const data = dummyMenuData; 
   const dataToShow =
     category === "all" ? data : data.filter((el) => el.category === category);
 

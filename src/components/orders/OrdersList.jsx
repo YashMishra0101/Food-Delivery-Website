@@ -115,7 +115,7 @@ function OrdersList() {
             {error && <p className="text-sm text-red-500">{error}</p>}
             <Button onClick={handleSubmit}>
               Order Now For{" "}
-              <span className="underline"> {formatCurrency(totalPrice)}</span>
+              <span> {`₹${(totalPrice || 0)}`}</span>
             </Button>
           </form>
         </div>
@@ -131,7 +131,7 @@ function OrdersList() {
                   <span className="text-sm">x{item.qty}</span> {item.title}
                 </p>
                 <div className="flex items-center gap-[20px]">
-                  <span className="text-sm">{formatCurrency(item.price)}</span>
+                  <span className="text-sm">{`₹${(item.price)}`}</span>
                   <UpdateItemQuantity id={item.id} currentQuantity={item.qty} />
                   <Button onClick={() => dispatch(deleteItem(item.id))}>
                     Delete

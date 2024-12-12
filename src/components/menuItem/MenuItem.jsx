@@ -28,7 +28,7 @@ function MenuItem({ item }) {
           whileHover={{ scale: 1.2 }}
           src={image}
           alt=""
-          className="relative z-10 mx-auto w-[120px]"
+          className="relative z-10 mx-auto max-w-[14rem] overflow-hidden rounded-md"
         />
         <div className={`${styles["item-overlay"]}`}></div>
       </div>
@@ -43,7 +43,7 @@ function MenuItem({ item }) {
           <div>
             <h3 className="text-lg font-bold">{title}</h3>
             <span className="font-bold text-yellow">
-              {formatCurrency(price)}
+              {`₹${(price)}`}
             </span>
           </div>
 

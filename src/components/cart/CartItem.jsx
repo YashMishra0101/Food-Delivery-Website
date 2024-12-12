@@ -13,7 +13,7 @@ function CartItem({ item }) {
       <div className="mr-auto font-bold">
         <h5 className="text-sm">{title}</h5>
         <span className="text-xs">
-          {formatCurrency(price)} {qty > 1 && `x ${qty}`}
+          {`₹${(price)}`} {qty > 1 && `x ${qty}`}
         </span>
       </div>
 
