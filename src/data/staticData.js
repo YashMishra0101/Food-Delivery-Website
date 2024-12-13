@@ -81,10 +81,10 @@ export const loginFormData = [
 ];
 
 export const sliderImages = [
-  imageSlider1,
+  imageSlider4,
   imageSlider2,
   imageSlider3,
-  imageSlider4,
+  imageSlider1,
 ];
 
 export const categoryDta = [
