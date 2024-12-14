@@ -115,7 +115,7 @@ export const dummyMenuData =
     {
         id: 15,
         title: "Burger",
-        image: "https://i.pinimg.com/736x/30/92/36/309236d8ef38f3a1783db8ae99c84669.jpg", 
+        image: "https://i.pinimg.com/474x/d5/d4/bb/d5d4bb7e8a83e3cc20f3383e4ca3e5c7.jpg", 
         qty: 1,
         category: "Fast Food",
         price: 150,
@@ -123,7 +123,7 @@ export const dummyMenuData =
     {
       id: 16,
       title: "Gulab Jamun",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/74/Gulab_jamun.jpg", // Gulab Jamun image
+      image: "https://i.pinimg.com/474x/41/77/92/4177920dbd75f39879704d84f9458473.jpg", 
       qty: 1,
       category: "Indian",
       price: 80,
