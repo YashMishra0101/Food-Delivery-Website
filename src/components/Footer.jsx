@@ -50,7 +50,7 @@ function Footer() {
 
             <div className="flex flex-row items-center justify-center gap-[10px] text-xl md:flex-col md:justify-start">
               <Link
-                to={"https://github.com/tarun-singh"}
+                to={"https://github.com/Tarun26102003"}
                 target="_blank"
                 className="hover:text-yellow"
               >
