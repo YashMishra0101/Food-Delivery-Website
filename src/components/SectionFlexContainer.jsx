@@ -18,7 +18,7 @@ function SectionFlexContainer({
         <p className="text-yellow">{description}</p>
         <h1 className="text-4xl md:text-2xl">{title}</h1>
         <p className="my-[10px] text-lightGray">
-          At Tarun Singh Restaurant, we bring the finest flavors of Indian
+          At Tarun Banafar Restaurant, we bring the finest flavors of Indian
           cuisine with a twist. Whether you're craving traditional dishes, juicy
           chicken burgers, pizza dough, or something with a modern flair, we
           offer it all. Our food is prepared with love and the finest

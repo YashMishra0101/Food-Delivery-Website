@@ -100,16 +100,16 @@ function OrdersList() {
                 className="w-full bg-transparent outline-none placeholder:text-sm"
                 type="text"
                 name="address"
-                placeholder={"Address"}
+                placeholder={"Your Table Number"}
                 value={fetchedAddress || address}
                 onChange={handleChange}
               />
-              <button
+              {/* <button
                 onClick={handleGetAddress}
                 className="h-full w-[150px] rounded-xl bg-yellow py-[2px]  text-xs hover:bg-darkYellow hover:text-white"
               >
                 Get Position
-              </button>
+              </button> */}
             </div>
 
             {error && <p className="text-sm text-red-500">{error}</p>}

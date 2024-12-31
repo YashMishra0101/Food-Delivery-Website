@@ -388,7 +388,7 @@ export const ClientsData = [
     id: 1,
     description:
       "“Forget the trendy pizza shops, This hidden spot makes the best Indian-style pizza slice in Pune.”",
-    name: "Tarun Singh", 
+    name: "Tarun Banafar", 
     image: clientImage1,
   },
 

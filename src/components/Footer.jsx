@@ -18,7 +18,7 @@ function Footer() {
             <div>
               <h5 className="mb-[5px] text-xl uppercase">Book A Table</h5>
               <p className="text-lightGray">
-                Tarun Singh Restaurant.
+              Tarun Banafar Restaurant.
                 <br /> Visit us in Pune for an unforgettable experience.
               </p>
               <span className="text-yellow">(+91) 7020580682</span>
@@ -74,7 +74,7 @@ function Footer() {
           target="_blank"
           className="underline"
         >
-          Tarun Singh
+          Tarun Banafar
         </Link>
         . All Rights Reserved.
       </p>

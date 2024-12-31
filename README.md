@@ -2,9 +2,9 @@
 
 [Live site URL](https://tarun-food-delivery-website.vercel.app/)
 
-Hi, I’m Tarun Singh, a student from Pune, India, and this is my **Fast Food Delivery App**. The goal of this project is to offer a smooth and convenient food ordering experience. I built this app using **React**, **Redux**, **Tailwind CSS**, and **Firebase**, and I'm constantly learning new things to make it better.  
+Hi, I’m Tarun Banafar, a student from Pune, India, and this is my **Fast Food Delivery App**. The goal of this project is to offer a smooth and convenient food ordering experience. I built this app using **React**, **Redux**, **Tailwind CSS**, and **Firebase**, and I'm constantly learning new things to make it better.  
 
-## About Me – **Tarun Singh**
+## About Me – **Tarun Banafar**
 
 I am currently studying **MCA (Master of Computer Applications)** in Pune, India. This app is part of my journey as a student, where I am learning how to build full-fledged applications with modern technologies. I am trying to improve my skills every day and, through projects like this, I am learning how to create real-world solutions.  
 
